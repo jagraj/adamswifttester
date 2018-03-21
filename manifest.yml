@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: adamswifttester
+  buildpack: swift_buildpack
+  command: "'adamswifttester'"
+  memory: 128M
+  random-route: true
